@@ -4,34 +4,34 @@ public class Main {
     public static void main(String[] args) {
 
         // Задание1
-        byte sweets = 111;
-        System.out.println("Значение переменной sweets с типом byte равно " + sweets);
-        short cake = 22222;
-        System.out.println("Значение переменной cake с типом short равно " + cake);
-        int candies = 3333333;
-        System.out.println("Значение переменной candies с типом int равно " + candies);
-        long lolipop = 44444444L;
-        System.out.println("Значение переменной lolipop с типом long равно " + lolipop);
-        float pie = 5.55f;
-        System.out.println("Значение переменной pie с типом float равно " + pie);
-        double pieHalf = 66.666666;
-        System.out.println("Значение переменной pieHalf с типом double равно " + pieHalf);
+        byte a = 111;
+        System.out.println("Значение переменной a с типом byte равно " + a);
+        short b = 22222;
+        System.out.println("Значение переменной b с типом short равно " + b);
+        int c = 3333333;
+        System.out.println("Значение переменной c с типом int равно " + c);
+        long d = 44444444L;
+        System.out.println("Значение переменной d с типом long равно " + d);
+        float e = 5.55f;
+        System.out.println("Значение переменной e с типом float равно " + e);
+        double f = 66.666666;
+        System.out.println("Значение переменной f с типом double равно " + f);
 
         // Задание2
-        float pen = 27.12f;
-        long pencil = 987678965549L;
-        float stapler = 2.786f;
-        short ruler = 569;
-        short clips = -159;
-        short notebook = 27897;
-        byte calendar = 67;
+        float g = 27.12f;
+        long h = 987678965549L;
+        float i = 2.786f;
+        short j = 569;
+        short k = -159;
+        short l = 27897;
+        byte n = 67;
 
 
         // Задание3
-        byte ЛюдмилаПавловна = 23;
-        byte АннаСергеевна = 27;
-        byte ЕкатеринаАндреевна = 30;
-        int paper = 480 / (ЛюдмилаПавловна + АннаСергеевна + ЕкатеринаАндреевна);
+        byte ludmilaPetrovna = 23;
+        byte annaSergeevna = 27;
+        byte ekaterinaAndreevna = 30;
+        int paper = 480 / (ludmilaPetrovna + annaSergeevna + ekaterinaAndreevna);
         System.out.println("На каждого ученика рассчитано " + paper + " листов бумаги.");
 
 
@@ -88,17 +88,17 @@ public class Main {
 
 
         //Задание8
-        int Маша = 67760;
-        long Маша10 = Маша + ((Маша / 100) * 10);
-        long МашаРазницаГодовая = (Маша10 * 12) - (Маша * 12);
-        System.out.println("Маша теперь получает " + Маша10 + " рублей. Годовой доход вырос на " + МашаРазницаГодовая + " рублей.");
-        int Денис = 83690;
-        int Денис10 = Денис + (Денис / 100 * 10);
-        long ДенисРазницаГодовая = (Денис10 * 12) - (Денис * 12);
-        System.out.println("Денис теперь получает " + Денис10 + " рублей. Годовой доход вырос на " + ДенисРазницаГодовая + " рублей.");
-        int Кристина = 76230;
-        int Кристина10 = Кристина + (Кристина / 100 * 10);
-        long КристинаРазницаГодовая = (Кристина10 * 12) - (Кристина * 12);
-        System.out.println("Кристина теперь получает " + Кристина10 + " рублей. Годовой доход вырос на " + КристинаРазницаГодовая + " рублей.");
+        int masha = 67760;
+        long masha10 = masha + ((masha / 100) * 10);
+        long mashaYear = (masha10 * 12) - (masha * 12);
+        System.out.println("Маша теперь получает " + masha10 + " рублей. Годовой доход вырос на " + mashaYear + " рублей.");
+        int denis = 83690;
+        int denis10 = denis + (denis / 100 * 10);
+        long denisYear = (denis10 * 12) - (denis * 12);
+        System.out.println("Денис теперь получает " + denis10 + " рублей. Годовой доход вырос на " + denisYear + " рублей.");
+        int kristina = 76230;
+        int kristina10 = kristina + (kristina / 100 * 10);
+        long kristinaYear = (kristina10 * 12) - (kristina * 12);
+        System.out.println("kristina теперь получает " + kristina10 + " рублей. Годовой доход вырос на " + kristinaYear + " рублей.");
     }
 }
